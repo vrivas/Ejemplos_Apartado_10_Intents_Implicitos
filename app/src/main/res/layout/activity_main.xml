@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/im_browser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/ic_netscape" />
+
+    <ImageButton
+        android:id="@+id/im_mail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:src="@mipmap/ic_mail" />
+
+</GridLayout>
