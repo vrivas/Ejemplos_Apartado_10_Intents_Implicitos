@@ -4,20 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:columnCount="3"
     tools:context=".MainActivity">
 
     <ImageButton
         android:id="@+id/im_browser"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@mipmap/ic_netscape" />
+        android:contentDescription="@string/icono_de_browser"
+        app:srcCompat="@mipmap/ic_netscape_foreground" />
 
     <ImageButton
         android:id="@+id/im_mail"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginLeft="35dp"
-        android:src="@mipmap/ic_mail" />
+        android:layout_row="0"
+        android:layout_column="1"
+        android:contentDescription="@string/icono_de_e_mail"
+        android:src="@mipmap/ic_mail_foreground" />
+
+    <ImageButton
+        android:id="@+id/im_txt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/icono_de_mensaje_de_texto"
+        app:srcCompat="@mipmap/ic_txt_foreground" />
+
+    <ImageButton
+        android:id="@+id/im_map"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/icono_de_mapa"
+        app:srcCompat="@mipmap/ic_map_foreground" />
+
+    <ImageButton
+        android:id="@+id/im_contact"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/icono_de_contacto"
+        app:srcCompat="@mipmap/ic_contac_foreground" />
+
+    <ImageButton
+        android:id="@+id/im_youtube"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_row="1"
+        android:contentDescription="@string/icono_de_youtube"
+        app:srcCompat="@mipmap/ic_video_foreground" />
 
 </GridLayout>

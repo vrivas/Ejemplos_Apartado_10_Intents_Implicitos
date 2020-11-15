@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icono_de_browser">Icono de Browser</string>
+    <string name="icono_de_e_mail">Icono de E-mail</string>
+    <string name="icono_de_mensaje_de_texto">Icono de mensaje de texto</string>
+    <string name="icono_de_mapa">Icono de mapa</string>
+    <string name="icono_de_contacto">Icono de contacto</string>
+    <string name="icono_de_youtube">Icono de YouTube</string>
+</resources>
